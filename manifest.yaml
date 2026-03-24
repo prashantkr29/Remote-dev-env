@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
         - name: dev-container
-          image: code-server-jdk21:v1
+          image: prashantkr2901/code-server:jdk21
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
