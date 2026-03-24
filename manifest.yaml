@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
         - name: dev-container
-          image: code-server-java21:latest
+          image: code-server-jdk21:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
@@ -86,7 +86,7 @@ metadata:
   name: java-dev-env
   namespace: dev
 spec:
-  ingressClassName: nginx
+  ingressClassName: kong
   rules:
     - host: java-dev.local
       http:
