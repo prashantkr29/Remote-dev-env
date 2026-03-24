@@ -1,8 +1,8 @@
-# Java Development Environment on Kubernetes
+# Remote Development Environment on Kubernetes
 
 ## Overview
 
-This manifest deploys a browser-based Java development environment inside Kubernetes with a custom image that includes Java 21 and JVM debugging tools.
+This manifest deploys a browser-based Java development environment inside Kubernetes with a custom image that currently includes Java 21 and JVM debugging tools.
 The environment allows developers to access a VS Code–like IDE directly from a web browser and work on Java applications within the Kubernetes cluster.
 
 
